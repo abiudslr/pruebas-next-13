@@ -1,10 +1,12 @@
 {
   "Index": {
     "title": "Hola mundo!",
-    "button": "Haz click en mi",
-    "light": "Claro",
-    "dark": "Oscuro",
-    "system": "Sistema"
+    "button": "Haz click en mi"
+  },
+  "Navbar": {
+    "home": "Inicio",
+    "accounts": "Cuentas",
+    "balance": "Balance"
   },
   "Theme": {
     "light": "Claro",

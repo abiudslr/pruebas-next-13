@@ -5,6 +5,7 @@ import {useLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import { ThemeProvider } from '@/components/theme-provider';
 import {NextIntlClientProvider} from 'next-intl'; 
+import { Navbar } from '@/components/Navbar';
 const locales = ['en', 'es'];
 
 const inter = Inter({ subsets: ['latin'] })
@@ -46,7 +47,12 @@ export default async function LocaleLayout({
             enableSystem
             disableTransitionOnChange
           >
-            {children}
+            <header className='sticky top-0'>
+              <Navbar />
+            </header>
+            <div className='container mx-auto pt-4'>
+              {children}
+            </div>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

@@ -1,10 +1,12 @@
 {
   "Index": {
     "title": "Hello world!",
-    "button": "Click me",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System"
+    "button": "Click me"    
+  },
+  "Navbar": {
+    "home": "Home",
+    "accounts": "Accounts",
+    "balance": "Balance"
   },
   "Theme": {
     "light": "Light",
