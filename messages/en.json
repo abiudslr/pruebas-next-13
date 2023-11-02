@@ -1,6 +1,14 @@
 {
   "Index": {
     "title": "Hello world!",
-    "button": "Click me"
+    "button": "Click me",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "Theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
   }
 }
