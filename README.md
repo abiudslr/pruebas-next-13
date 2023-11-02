@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS
 
-## Getting Started
+Este es un proyecto de [Next.js](https://nextjs.org/) creado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Utilizando NextJs v13.5.9 (downgrade de 14.0.1 por razones de compatibilidad de paquetes).
 
-First, run the development server:
+## Iniciar el proyecto
+
+Ejecutar el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -12,11 +14,11 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir [http://localhost:3000](http://localhost:3000) en el navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Biblioteca de UI
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Utilizando la biblioteca de componentes open source [shadcn/ui](https://ui.shadcn.com/)
 
 ## Learn More
 
